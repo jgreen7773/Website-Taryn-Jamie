@@ -1,0 +1,30 @@
+header {
+    background-color: beige;
+    font-style: times;
+    text-decoration-color: blue;
+}
+
+#IMG1 {
+    margin: 20px;
+    border: green;
+    padding: 20px;
+    height: 600px;
+    width: 420px;
+}
+
+h1 {
+    font-style: sans-serif;
+    border-block-color: green;
+    margin: 20px;
+    float: left;
+}
+
+nav {
+    text-decoration-color: Brown;
+    display: inline-block;
+
+}
+
+h2 {
+    clear:left;
+}
