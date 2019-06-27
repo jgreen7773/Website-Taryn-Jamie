@@ -1,9 +1,24 @@
-var name = prompt('What is your name?');
-alert('Welcome' + ' ' + name);
+function getName() {
+    var name = prompt('what is your name?');
+    alert('welcome' + ' ' + name);
+}
 
-var color = prompt('what color do you want to change this page to be?');
+function changePageColor() {
+    var color = prompt(message);
+    document.body.style.background = color;
+}
 
-document.body.page.style.background = Color;
+function changeFont() {
+    var font = prompt('what font family do you want to have?')
+    document.body.style.fontFamily = font;
+}
 
+function changeCSS(msg, cssProperty, val) {
+    var answer = prompt(msg);
+    document.body.style.cssProperty = val;
+}
 
-
+getName();
+changePageColor();
+changeFont();
+changeCSS();
