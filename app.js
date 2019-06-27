@@ -16,6 +16,7 @@ function changeFont() {
 function changeCSS(msg, cssProperty, val) {
     var answer = prompt(msg);
     document.body.style.cssProperty = val;
+    confirm('Are you sure? Really?');
 }
 
 getName();
