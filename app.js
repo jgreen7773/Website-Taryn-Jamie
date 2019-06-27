@@ -4,7 +4,7 @@ function getName() {
 }
 
 function changePageColor() {
-    var color = prompt(message);
+    var color = prompt('what color do you want this page to be?');
     document.body.style.background = color;
 }
 
